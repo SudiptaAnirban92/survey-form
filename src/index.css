@@ -1,13 +1,104 @@
 body {
+  background-color: cadetblue;
+  font-family: 'Roboto', sans-serif;
+  width: 100%;
+  height: 100vh;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  font-size: 16px;
+  background-image: url(https://www.odysseyis.com/wp-content/uploads/2019/05/Odyssey-forms-background.jpg);
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+h1 {
+  margin: 1em auto;
+  text-align: center;
+  padding-top: 1rem;
+  color: white;
+  border: black;
+}
+
+p {
+  margin: 1em auto;
+  text-align: center;
+  font-style: italic;
+  padding-bottom: 1em;
+  color: white;
+}
+
+form {
+  background-color:  #999999;
+  width: 60vw;
+  max-width: 650px;
+  min-width: 400px;
+  margin: 0 auto;
+  border-radius: 0.5%;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  padding-top: 1.5em;
+  padding-bottom: 2.5em;
+}
+
+
+label {
+  display: block;
+  margin: 0.5rem 0;
+  font-family: 'Roboto', sans-serif;
+  font-size: larger;
+  color: white;
+  font-weight: 500;
+  padding-bottom: 0.1em;
+}
+
+input, textarea, select {
+  margin: 10px;
+  width: 100%;
+  min-height: 2.5em;
+  border-radius: 0.3em;
+  font-family: 'Roboto', sans-serif;
+  font-size: medium;
+  padding-left: 0.5em;
+  }
+
+input, textarea {
+  background-color: white;
+  border: 1px solid white;
+  color: black;
+  margin: 1em auto;
+  
+}
+
+.inline {
+  width: unset;
+  vertical-align: middle;
+  margin: 0 0.5em 0 0;
+}
+
+input[type="submit"] {
+  display: block;
+  width: 100%;
+  height: 2em;
+  margin: 1em auto;
+  font-size: 1.1rem;
+  background-color: #2ECC71;
+  border: none;
+  min-width: 300px;
+  min-height: 50px;
+  color: white;
+}
+
+textarea {
+  min-height: 120px;
+  max-width: 100%;
+  min-width: 100%;
+}
+
+::placeholder {
+  font-family: 'Roboto', sans-serif;
+  font-size: medium;
+  padding-left: 0.5em;
+  font-weight: 300;
+  font-style: italic;
+}
+
+input.inline {
+  width: 3.5%;
 }

@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/survey-form/static/css/main.1071de02.css",
+    "main.js": "/survey-form/static/js/main.b6c314b1.js",
+    "index.html": "/survey-form/index.html",
+    "main.1071de02.css.map": "/survey-form/static/css/main.1071de02.css.map",
+    "main.b6c314b1.js.map": "/survey-form/static/js/main.b6c314b1.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.1071de02.css",
+    "static/js/main.b6c314b1.js"
+  ]
+}
